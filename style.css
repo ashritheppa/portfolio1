@@ -1,42 +1,26 @@
 body
 {
-  text-align: center;
-  background: linear-gradient(#b084b5 0%,#eb1207 100%);
-  background-repeat:no-repeat;
+    text-align: center;
+     background-color: blueviolet;   
 }
-h1 {
-  text-shadow: 2px 2px #c4706c;
-  font-size: 20px;
-}
-#bio {
-  padding:20px;
-  font-size:18px;
-  text-align:center;
-}
-img
+span
 {
-  border-radius:50%;
-  width:100px;
+    margin-top:20px;
+}
+div
+{
+    margin-top: 20px;
+}
+.Image-section
+{
+    display: flex;
+    justify-content: center;
     
 }
-.menu{
-    list-style: none;
-    font-family: sans-serif;
-    float: right;
-    top: 10px;
-    right: 30px;
-    cursor: pointer;
-    color: black;
+.section-style
+{
+margin-right: 25px;
+    margin-left: 25px;
+    background-color: white;
+        
 }
-.links{
-    float: right;
-    color:black;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    font-family: serif;
-    font-size: 20px;
-}
-.links:hover{
-    background-color: blue;
